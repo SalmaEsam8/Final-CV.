@@ -3,21 +3,15 @@ body {
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
-}
-
-top{
-  margin-top: 0px;
-  padding-top: 150px;
-  position: relative;
-  box-sizing: border-box;
-  scroll-behavior: smooth;
-  background: url(C:\Users\LOGHAT ELASR\Desktop\WhatsApp Image 2023-03-18 at 23.10.50.jpg);
-  /* background: url(IMG_5339.JPG); */
-  background-position: center;
+  background-image: url("11.jpg");
+  background-size: cover;
+  width: 100%;
   background-attachment: fixed;
-  
 }
 
+em {
+  font-size: 1.25rem;
+}
 
 h1 {
   font-size: 5rem;
@@ -27,20 +21,26 @@ h1 {
 
 h2{
     color: #6e256c;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2.5rem;
+    font-family: 'Sacramento', cursive;
+    font-size: 3rem;
     font-weight: normal;
     padding-bottom: 10px;
 }
 
 h3 {
+    font-size: 2rem;
     color: #6e256c;
     font-family: 'Montserrat', sans-serif;
   }
   
   p {
-    line-height: 0.5;
-    font-size: 1.25rem;
+    line-height: 0.25;
+    font-size: 1.75rem;
+  }
+
+  li{
+    line-height: 1.25;
+    font-size: 1.5rem;
   }
   
   hr {
